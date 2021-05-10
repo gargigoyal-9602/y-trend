@@ -1,0 +1,7 @@
+export default {
+
+  //MAIN Actions
+  UPDATE_CACHE: "UPDATE_CACHE",
+  DEL_ITEM_CACHE: "DEL_ITEM_CACHE",
+  CLEAN_CACHE: "CLEAN_CACHE"
+};

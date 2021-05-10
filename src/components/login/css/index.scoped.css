@@ -1,0 +1,710 @@
+.yt-lp-mt-5 {
+  margin-top: 50px;
+}
+.yt-lp-mt-4 {
+  margin-top: 40px;
+}
+
+.yt-lp-mb-5 {
+  margin-bottom: 50px;
+}
+
+.yt-login-wrap {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yt-login-list-style-none {
+  list-style-type: none;
+}
+
+.lp-tabs-name li {
+  font-size: 18px;
+  line-height: 0.94;
+  color: var(--color-dark-grey);
+  padding: 0 15px 15px;
+  cursor: pointer;
+}
+
+.lp-tabs-name li:first-child {
+  margin-right: 10px;
+}
+
+.lp-tabs-name li.active {
+  color: var(--color-blue);
+  font-weight: bold;
+  border-bottom: 2px solid var(--color-blue);
+  line-height: 1.11;
+}
+
+.yt-signup-icn,
+.yt-login-icn {
+  max-width: 24px;
+  position: absolute;
+  left: 20px;
+}
+
+.yt-login-icn2 {
+  max-width: 24px;
+  position: absolute;
+  left: 20px;
+}
+
+.yt-login-icn3 {
+  max-width: 24px;
+  position: absolute;
+  top: 18%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+
+.yt-signup-form .form-group,
+.yt-login-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.yt-signup-form .form-group .form-control,
+.yt-login-form .form-group .form-control {
+  padding-left: 65px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: auto;
+  box-shadow: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-blue);
+  border: solid 1px #cae2fe;
+}
+
+.yt-signup-form .form-group .form-control:focus,
+.yt-login-form .form-group .form-control:focus {
+  border: solid 1px var(--color-blue);
+}
+
+.yt-sign-up-message-show,
+.yt-login-message-show {
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  position: absolute;
+  bottom: -20px;
+  display: none;
+}
+
+.yt-signup-form .form-group.error .yt-sign-up-message-show,
+.yt-login-form .form-group.error .yt-login-message-show {
+  display: block;
+  color: var(--color-orange);
+}
+
+.yt-signup-form .form-group.error .form-control,
+.yt-login-form .form-group.error .form-control {
+  border-color: var(--color-orange);
+}
+
+.yt-signup-bottom-info,
+.yt-login-bottom-info {
+  margin-top: 15px;
+}
+
+.yt-signup-via-tag {
+  margin: 20px 0;
+}
+
+.yt-login-via-tag {
+  margin: 30px 0;
+}
+
+.yt-signup-pass-info,
+.yt-login-pass-info {
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: var(--color-black);
+  position: absolute;
+  bottom: -20px;
+}
+
+.yt-signup-btn,
+.yt-login-btn {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+  opacity: 0.99;
+  border-radius: 5px;
+  background-color: var(--color-dark-black);
+}
+
+.yt-signup-tag-line,
+.yt-login-tag-line {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: left;
+  color: var(--color-black);
+  margin-bottom: 27px;
+  margin-top: 23px;
+}
+
+.yt-sign-up-pass-vie-icn,
+.yt-login-pass-vie-icn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+
+.yt-login-pass-vie-icn2 {
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+
+.yt-signup-via-tag,
+.yt-login-via-tag {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+}
+
+.yt-signup-via-fb,
+.yt-login-via-fb {
+  background-color: var(--color-blue);
+  padding: 15px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.11;
+  border: var(--color-blue);
+}
+
+.lp-bottom-links {
+  margin-top: 17px;
+}
+
+.yt-signup-via-email,
+.yt-login-via-email {
+  padding: 15px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.11;
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+}
+
+.yt-signup-aggre-tag,
+.yt-login-aggre-tag {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+  margin-bottom: 10px;
+}
+
+.yt-signup-term-privacy-link,
+.yt-login-term-privacy-link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+
+.yt-signup-skip-btn,
+.yt-login-skip-btn {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+
+.yt-login-bg-banner {
+  background-image: url(../images/login-image.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.yt-signup-oi-tag-small,
+.yt-login-oi-tag-small {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.yt-signup-oi-tag-big,
+.yt-login-oi-tag-big {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.yt-signup-sp-now,
+.yt-login-sp-now {
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  border: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  max-width: 180px;
+  margin-top: 56px;
+}
+
+.yt-sign-other-info,
+.yt-login-other-info {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  padding: 0 40px;
+}
+
+.yt-signup-bdr,
+.yt-login-bdr {
+  height: 2px;
+  background: #ced6dc;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  position: absolute;
+  bottom: 80px;
+  right: -40px;
+}
+
+.yt-login-forget-pass {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--color-black);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.yt-login-inner-content.yt-login-bg-banner.yt-login-col {
+  width: 45%;
+}
+
+.yt-login-inner-content.yt-login-form-wrapper {
+  padding-left: 0px;
+  width: 100%;
+}
+
+.yt-signup-form img,
+.yt-login-form img,
+.yt-fp-form img {
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+/**/
+
+@media (min-width: 1900px) {
+  .yt-login-col {
+    width: 50%;
+  }
+  .col-xxl-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-xxl-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .yt-login-wrap {
+    max-width: 600px;
+  }
+}
+
+.login-on-cart-page .container {
+  max-width: 100%;
+  padding: 0;
+}
+/*
+* Cart Page Login Component CSS
+*/
+
+.login-on-cart-page .lp-bottom-links {
+  display: none;
+}
+
+.login-on-cart-page .yt-sign-up-message-show {
+  bottom: -20px;
+}
+
+.login-on-cart-page .yt-login-wrap {
+  margin-top: 0 !important;
+  max-width: 100%;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 1367px) {
+  .login-on-cart-page.login-box-top {
+    display: none;
+  }
+}
+
+@media (max-width: 1367px) {
+  .login-on-cart-page.login-box-bottom {
+    display: none;
+  }
+}
+
+.err_invalid {
+  color: #dc3545;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border: 1px solid #dc3545 !important;
+}
+/*
+* Screen for under 1280 Resolution   Tab
+*/
+
+@media (max-width: 1279.92px) {
+  .yt-login-forget-pass {
+    padding: 0;
+  }
+  .yt-login-inner-wrap .lp-bottom-links {
+    margin-top: 30px;
+  }
+  .yt-login-via-tag {
+    margin: 20px 0;
+  }
+  .yt-login-wrap {
+    margin-top: 37px;
+  }
+  .yt-login-inner-content.yt-login-col {
+    width: 100% !important;
+  }
+  .yt-login-wrap {
+    max-width: 588px;
+    padding: 0;
+  }
+  .yt-login-inner-content.yt-login-col.yt-login-form-wrapper {
+    padding: 32px 30px 30px;
+    order: -1;
+  }
+  .yt-login-bg-banner {
+    min-height: 210px;
+    background-position: 100% 35%;
+  }
+  .yt-signup-oi-tag-small,
+  .yt-login-oi-tag-small {
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 11px;
+  }
+  .yt-signup-oi-tag-big,
+  .yt-login-oi-tag-big {
+    line-height: 1.15;
+    font-size: 48px;
+  }
+  .yt-sign-other-info,
+  .yt-login-other-info {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+  .yt-signup-sp-now,
+  .yt-login-sp-now {
+    margin-top: 30px;
+    line-height: 1.13;
+    font-size: 16px;
+    padding-top: 10px !important;
+    padding-bottom: 12px !important;
+    max-width: 150px;
+  }
+  .yt-signup-bdr,
+  .yt-login-bdr {
+    bottom: 63px;
+  }
+  .lp-tabs-name li {
+    font-size: 16px;
+    line-height: 1.13;
+    padding: 0 12px 7.5px;
+  }
+  .yt-signup-tag-line,
+  .yt-login-tag-line {
+    font-size: 14px;
+    line-height: 1.14;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .yt-signup-form .form-group .form-control,
+  .yt-login-form .form-group .form-control {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .yt-signup-form .form-group,
+  .yt-login-form .form-group {
+    margin-bottom: 20px;
+  }
+  .yt-signup-aggre-tag,
+  .yt-login-aggre-tag {
+    margin-bottom: 10px !important;
+  }
+  .yt-signup-term-privacy-link,
+  .yt-login-term-privacy-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-signup-btn {
+    margin-top: 47px;
+    font-size: 16px;
+    line-height: 1.13;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .yt-signup-pass-info {
+    bottom: -24px !important;
+  }
+  .yt-signup-form {
+    margin-bottom: 20px !important;
+  }
+  .yt-signup-via-fb,
+  .yt-login-via-fb,
+  .yt-signup-via-email,
+  .yt-login-via-email {
+    min-width: 150px;
+  }
+  .yt-signup-wrap .lp-bottom-links {
+    margin-top: 30px;
+  }
+  .yt-login-form {
+    margin-bottom: 20px !important;
+  }
+  .yt-login-bottom-info {
+    margin-top: 20px !important;
+  }
+  .yt-skip-wrap {
+    display: none;
+  }
+  .login-on-cart-page
+    .yt-login-inner-content.yt-login-col.yt-login-form-wrapper {
+    padding: 32px 100px 30px;
+  }
+}
+/*
+* Screen for under 768 Resolution Mobile
+*/
+
+@media (max-width: 767.98px) {
+  .yt-signup-form .invalid-feedback,
+  .yt-login-form .invalid-feedback {
+    margin: 6px 0 0;
+  }
+  .lp-tabs-name li {
+    font-size: 14px;
+    line-height: 1.21 !important;
+  }
+  .lp-tabs-name li.active {
+    line-height: 1.14 !important;
+  }
+  .yt-login-wrap {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .yt-login-wrap {
+    max-width: 335px;
+  }
+  .yt-login-inner-content.yt-login-col.yt-login-form-wrapper {
+    padding: 15px 20px 20px;
+  }
+  .yt-signup-oi-tag-small,
+  .yt-login-oi-tag-small {
+    font-size: 10px;
+    line-height: 1.1;
+  }
+  .yt-signup-oi-tag-big,
+  .yt-login-oi-tag-big {
+    line-height: 1.13;
+    font-size: 30px;
+  }
+  .yt-signup-sp-now,
+  .yt-login-sp-now {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.14;
+    max-width: 120px;
+    padding: 14px 27px !important;
+  }
+  .yt-signup-tag-line,
+  .yt-login-tag-line {
+    font-size: 12px;
+    line-height: 1.17;
+    margin-top: 11px;
+  }
+  .yt-signup-form .form-group .form-control,
+  .yt-login-form .form-group .form-control {
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .yt-signup-pass-info,
+  .yt-login-pass-info {
+    font-size: 10px;
+    line-height: 1.1;
+  }
+  .yt-signup-form .form-group,
+  .yt-login-form .form-group {
+    margin-bottom: 13px;
+  }
+  .yt-signup-btn,
+  .yt-login-btn {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .yt-signup-btn {
+    margin-top: 41px;
+  }
+  .yt-login-btn {
+    margin-top: 20px !important;
+  }
+  .yt-signup-form {
+    margin-bottom: 15px !important;
+  }
+  .yt-signup-skip-btn,
+  .yt-login-skip-btn {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .yt-signup-via-tag,
+  .yt-login-via-tag {
+    font-size: 11px;
+    line-height: 1.18;
+    margin: 15px 0;
+  }
+  .yt-signup-via-fb,
+  .yt-login-via-fb,
+  .yt-signup-via-email,
+  .yt-login-via-email {
+    min-width: 110px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .yt-signup-via-fb,
+  .yt-login-via-fb {
+    padding-left: 10px;
+  }
+  .yt-signup-via-email,
+  .yt-login-via-email {
+    padding-left: 15px;
+  }
+  .yt-signup-wrap .lp-bottom-links {
+    margin-top: 20px;
+  }
+  .yt-signup-aggre-tag,
+  .yt-login-aggre-tag {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .yt-signup-term-privacy-link,
+  .yt-login-term-privacy-link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .login-on-cart-page
+    .yt-login-inner-content.yt-login-col.yt-login-form-wrapper {
+    padding: 15px 20px 20px;
+  }
+
+  .yt-signup-form .yt-form-err,
+  .yt-login-form .yt-form-err {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .yt-login-wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+  }
+  .yt-signup-pass-info {
+    bottom: -32px !important;
+  }
+  .err_invalid {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .yt-signup-form .form-group .form-control {
+    font-size: 16px;
+  }
+  .yt-signup-via-fb,
+  .yt-login-via-fb {
+    font-size: 16px;
+  }
+  .yt-signup-via-email {
+    font-size: 16px;
+  }
+  .yt-login-wrap {
+    padding: 30px 40px;
+  }
+  .yt-signup-tag-line,
+  .yt-login-tag-line {
+    margin-bottom: 35px;
+    margin-top: 15px;
+  }
+  .yt-signup-pass-info,
+  .yt-login-pass-info {
+    bottom: -23px;
+  }
+  .err_invalid,
+  .invalid-feedback {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .yt-signup-btn,
+  .yt-login-btn {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .yt-signup-form .form-group,
+  .yt-login-form .form-group {
+    margin-bottom: 20px;
+  }
+  .yt-login-bottom-info .yt-login-via-tag {
+    margin-top: 19px;
+  }
+  .yt-signup-term-privacy-link,
+  .yt-login-term-privacy-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-login-form.mb-4 {
+    margin-bottom: 17px !important;
+  }
+  .yt-login-bottom-info.mt-4 {
+    margin-top: 17px !important;
+  }
+}

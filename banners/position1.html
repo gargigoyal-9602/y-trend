@@ -1,0 +1,171 @@
+<div>
+    <style type="text/css">:root {
+            --urlBanner1 : url( https://s3.amazonaws.com/rentatowel/images/images/000/000/037/original/heroimage.png );
+        }
+    
+        .hc-hero-bg-img {
+            background-image: var(--urlBanner1);
+            background-size: cover;
+            background-position: 100%;
+            min-height: 300px;
+            position: relative;
+        }
+    
+        .heroimage {
+            content: var(--urlBanner1);
+            opacity: 0;
+        }
+    
+        .hc-hero-btn {
+            opacity: 0.99;
+            border-radius: 6px;
+            background-color: var(--color-dark-black);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.11;
+            letter-spacing: 0.36px;
+            color: #fff;
+            max-width: 180px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            bottom: 16px;
+            width: 100%;
+            border:unset;
+        }
+    
+        .button {
+            width: 140px;
+            height: 36px;
+            border-radius: 6px;
+            background-color: var(--color-dark-black);
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+        }
+    
+        .hc-hero-banner {
+            position: relative;
+            background-image: var(--urlBanner1);
+        }
+    @media (min-width: 1366px) and (max-width: 1900px) {
+    .hc-hero-btn{
+    font-size: 16px;
+    line-height: 1.13;
+      letter-spacing: 0.32px;
+    }
+    }
+        @media only screen and (max-width: 992px) {
+            .heroimage {
+                width: 100%;
+            }
+    
+            .shopnow {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10px;
+                margin-top: -50px;
+                width: 100px;
+                background-color: black;
+                color: white;
+                padding: 5px;
+                border-radius: 5px;
+                height: 30px;
+                text-align: center;
+                cursor: pointer;
+                font-weight: 500;
+            }
+        }
+    
+        @media only screen and (min-width: 992px) {
+            .heroimage {
+                width: 100%;
+            }
+    
+            .shopnow {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10px;
+                margin-top: -100px;
+                width: 140px;
+                background-color: black;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                height: 40px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    
+        .herocontainer {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .hero {
+            max-width: 1366px;
+        }
+    
+        .hc-hero-banner {
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    
+        /*
+    * Screen for under 1280 Resolution 
+    */
+        @media (max-width: 1279.98px) {
+            .hc-hero-banner {
+                min-height: 200px;
+            }
+        }
+    
+        /*
+    * Screen for under 768 Resolution 
+    */
+        @media (max-width: 767.88px) {
+            .hc-hero-btn {
+                font-size: 14px;
+                line-height: 1.14;
+                max-width: 120px;
+                padding-top: 14px !important;
+                padding-bottom: 14px !important;
+                    bottom: 43px;
+            }
+    
+            .hc-hero-banner {
+                min-height: 200px;
+            }
+        }
+    
+        /*
+    * Screen for 1280 Resolution 
+    */
+    
+        @media (min-width: 1280px) {
+            .hc-hero-banner {
+                min-height: 300px;
+            }
+        }
+    
+        /*
+    * Screen for 1920 Resolution 
+    */
+        @media (min-width: 1900px) {
+            .hc-hero-btn {
+                bottom: 95px;
+            }
+    
+            .hc-hero-banner {
+                min-height: 422px;
+            }
+        }
+    </style>
+    <div class="hc-hero-banner"><img alt="ytrend" class="heroimage hc-hero-img img-fluid d-none"> <form action="/shop"><button class="secondary hc-hero-btn p-3  w3-hover-dark-grey w3-hover-border-dark-grey w3-hover-shadow">Shop Now</button></form></div>
+    </div>

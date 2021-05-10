@@ -1,0 +1,326 @@
+.profile-pg-breadcrumbs {
+  color: var(--color-dark-grey);
+  font-size: 12px;
+  line-height: 1.17;
+}
+.profile-pg-current {
+  color: var(--color-black);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.hcp-cp-back-arrow {
+  cursor: pointer;
+}
+.hc-cp-back-tag {
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+}
+.hc-cp-mb-30,
+.hc-mb-30 {
+  margin-bottom: 30px !important;
+}
+.cp-main-form-wrapper {
+  padding: 36px 40px 40px;
+}
+.cp-backfrom-ct-page {
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+}
+.radius-10 {
+  border-radius: 10px;
+}
+
+.profile-change-pass-field .form-control {
+  border-bottom: 2px solid #dbdbdb !important;
+  box-shadow: none !important;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  height: auto;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.profile-chamhe-pass-submit {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.36px;
+  color: #fff;
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+}
+
+.error.profile-change-pass-field .cp-form-error-tag {
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--color-orange);
+}
+.validation-error {
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--color-orange);
+}
+.error.profile-change-pass-field .form-control {
+  color: var(--color-orange);
+  border-color: var(--color-orange) !important;
+}
+.cp-form-title {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-black);
+}
+
+.profile-form-tag {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+}
+.cp-profile-ttl {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: var(--color-black);
+}
+.empty-cart-text {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+
+.cp-go-to-back-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  border-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  width: 100%;
+  max-width: 200px;
+}
+.cp-main-form-wrapper {
+  position: relative;
+}
+.cp-pg-inner-wrap .cp-pg-empty-main-wrap {
+  padding: 5px 0 12px;
+}
+.cp-pg-inner-wrap.password-success {
+  padding: 50px 40px 57px;
+}
+.form-control1 {
+  padding-left: 65px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: auto;
+  margin-bottom: 9px;
+  box-shadow: none;
+  border: solid 1px #cae2fe;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 520px;
+
+  color: var(--color-black);
+}
+
+.yt-fp-icn {
+  max-width: 24px;
+  position: absolute;
+  top: 33%;
+  left: 60px;
+  transform: translateY(-50%);
+}
+.yt-fp-icn2 {
+  max-width: 24px;
+  position: absolute;
+  top: 33%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.yt-forgot-pass-vie-icn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: red;
+  cursor: pointer;
+}
+.yt-forgot-pass-vie-icn2 {
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .cp-pg-inner-wrap.password-success {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1280px) {
+  .cp-main-form-wrapper,
+  .cp-backfrom-ct-page {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .hc-cp-back-tag {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+  .cp-backfrom-ct-page {
+    margin-bottom: 20px !important;
+  }
+  .cp-main-form-wrapper {
+    padding: 20px;
+  }
+  .cp-main-form-wrapper,
+  .cp-backfrom-ct-page {
+    max-width: 358px;
+    margin: 0 auto;
+  }
+  .cp-form-title {
+    font-size: 14px;
+    line-height: 1.57;
+    margin-bottom: 25px !important;
+  }
+  .profile-form-tag {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .profile-change-pass-field .form-control {
+    padding: 5px 0 !important;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .profile-chamhe-pass-submit {
+    right: 0;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.32px;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    bottom: -62px;
+  }
+  .cp-pg-inner-wrap.password-success {
+    margin-top: 10px !important;
+    padding-top: 38px;
+  }
+  .cp-pg-inner-wrap .cp-pg-empty-main-wrap img {
+    max-width: 136px;
+  }
+  .cp-profile-ttl {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 10px !important;
+  }
+  .empty-cart-text {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .cp-pg-inner-wrap .cp-pg-empty-main-wrap .cp-wrap {
+    margin-top: 42px !important;
+    margin-bottom: 38px !important;
+  }
+  .cp-go-to-back-btn {
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.32px;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+  }
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .cp-main-form-wrapper,
+  .cp-backfrom-ct-page {
+    max-width: 100%;
+  }
+  .cp-backfrom-ct-page {
+    margin-bottom: 10px !important;
+  }
+  .cp-main-form-wrapper {
+    padding: 20px;
+  }
+  .cp-form-title {
+    font-size: 14px;
+    line-height: 1.57;
+    margin-bottom: 20px !important;
+  }
+  .profile-form-tag {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .profile-change-pass-field .form-control {
+    font-size: 17px;
+    line-height: 1.12;
+    padding-bottom: 6px !important;
+  }
+  .profile-chamhe-pass-submit {
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    right: 0;
+    font-size: 14px;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    bottom: -66px;
+  }
+  .yt-cm-cp-col {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  .hc-cp-back-tag {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .profile-change-password-main-wrapper {
+    margin-bottom: 10px !important;
+  }
+
+  .cp-pg-inner-wrap.password-success {
+    padding: 20px !important;
+    margin-top: 10px !important;
+  }
+  .cp-pg-inner-wrap.password-success .cp-wrap {
+    margin-top: 26px !important;
+    margin-bottom: 22px !important;
+  }
+  .cp-pg-inner-wrap.password-success .cp-profile-ttl {
+    font-size: 17px;
+    line-height: 1.12;
+  }
+  .cp-pg-inner-wrap.password-success .empty-cart-text {
+    max-width: 325px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .cp-go-to-back-btn {
+    font-size: 12px;
+    line-height: 1.17;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    width: 100%;
+    max-width: 100%;
+  }
+}

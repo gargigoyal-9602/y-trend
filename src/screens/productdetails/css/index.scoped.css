@@ -1,0 +1,670 @@
+.deals{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.products{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.more{
+    float: right;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.one{
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.two{
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.three{
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    float: left;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.fullscreen{
+    width:100%;
+}
+
+.oneintwo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shopnowbutton{
+    width:140px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.savetext{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.textblock1{
+    margin-top: -150px;
+    margin-left: 80px;
+}
+
+.welcometext{
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.textblock2{
+    margin-top: -350px;
+    margin-left: 80px;
+}
+
+.headtop{
+    color: white;
+    font-weight: 200px;
+}
+
+.uptooff{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.textblock3{
+    margin-top: -300px;
+    margin-left: 350px;
+}
+
+.logohead1{
+    margin-left: 30px;
+    font-weight: 500px;
+    margin-top: -60px;
+    font-size:20px;
+    color: white;
+}
+
+.shopnowgoldenbutton{
+    width:100px;
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -70px;
+    float: right;
+    margin-right: 10px;
+}
+
+.shopnowgoldenbutton1{
+    width:100px;
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+}
+
+.dontmiss{
+    font-size: 30px;
+}
+
+.offthirty{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.textbox4{
+    margin-left: 120px;
+    margin-top: -500px;
+}
+
+.hurryup{
+    font-size: 30px;
+    color: white;
+    font-weight: 600px;
+}
+
+.dailydeal{
+    font-size: 30px;
+    color: white;
+    font-weight: 600px;
+}
+
+.lowprice{
+    color: white;
+}
+
+.textbox5{
+    margin-left: 50px;
+    margin-top: -200px;
+}
+
+.happytimes{
+    font-size: 30px;
+    color: white;
+    font-weight: 600px;
+}
+
+.flat{
+    font-size: 40px;
+    color: white;
+    font-weight: 700px;
+}
+
+.textbox7{
+    margin-top: -230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stores{
+    width: 30%;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.playbuttons{
+    margin-left: 190px;
+    margin-right: auto;
+}
+
+.download{
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    margin-left: 100px;
+}
+
+.imglast{
+    width: 100%;
+    height: 100%;
+}
+
+.prodcluster{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.filterpage{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.filterpanel{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.abayas{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.filter_abayas{
+    margin-top: 30px;
+}
+
+.recommeded{
+    float: right;
+    margin-right: -23px;
+}
+
+.recomdrop{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.selectedopt{
+    /* width: 90px; */
+    /* height: 40px; */
+    border-radius: 24px;
+    border: solid 1px #cae2fe;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.showingnum{
+    float: right;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.selectedprops{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:gray;
+}
+
+.pageroute{
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.currpage{
+    color: black;
+}
+
+.filter_view{
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.cat_name{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cat_name_top{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.listing{
+    margin-left: 0;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.checkbox_div{
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.cat_item{
+    color: gray;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.color_opt{
+  height: 10px;
+  width: 10px;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.searchcontainer{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+.searchinput{  
+    border-radius: 6px;
+    border: solid 1px #cae2fe;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-left: 48px;
+}
+.searchicon{
+    height: auto;
+    width: 14px;
+    position: absolute;
+    left: 50px;
+}
+
+.cat_color{
+    color: gray;
+}
+
+.slider {
+    width: 90%;
+    height: 20px;
+    background: var(--color-primary);
+    opacity: 0.7;
+    transition: opacity .2s;
+  }
+
+
+/* for mobile */
+@media only screen and (max-width: 992px) {
+    .shopnowbutton{
+        width:100px;
+        padding: 5px;
+        height: 30px;
+    }
+    .shopnowgoldenbutton1{
+        width:100px;
+        padding: 5px;
+        height: 30px;
+    }
+    .savetext{
+        font-size: 15px;
+    }
+    .textblock1{
+        margin-top: -90px;
+        margin-left: 50px;
+    }
+    .welcometext{
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .textblock2{
+        margin-top: -200px;
+        margin-left: 40px;
+        width: 50%;
+    }
+    .headtop{
+        font-weight: 200px;
+    }
+    .uptooff{
+        color: white;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .textblock3{
+        margin-top: -250px;
+        margin-left: 200px;
+        width: 50%;
+    }
+    .three{
+        padding-bottom: 10px;
+    }
+    .logohead1{
+        width: 100%;
+    }
+    .hurryup{
+        font-size: 20px;
+        color: white;
+        font-weight: 600px;
+    }
+    .dailydeal{
+        font-size: 15px;
+        color: white;
+        font-weight: 600px;
+    }
+    .lowprice{
+        color: white;
+        font-size: 10px;
+    }
+    .textbox5{
+        margin-left: 30px;
+        margin-top: -160px;
+        width: 50%;
+    }
+    .happytimes{
+        font-size: 20px;
+        color: white;
+        font-weight: 600px;
+    }
+    .flat{
+        font-size: 25px;
+        color: white;
+        font-weight: 700px;
+    }
+    .stores{
+        width: 30%;
+        margin-top: 0px;
+    }
+    .playbuttons{
+        margin-left: 120px;
+        margin-right: auto;
+    }
+    .download{
+        font-size: 15px;
+        font-weight: 400;
+        color: black;
+        margin-left: 120px;
+    }
+    .textbox7{
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imglast{
+        width: 100%;
+        height: 100%;
+    }
+    .dontmiss{
+        font-size: 15px;
+    }
+    .offthirty{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .textbox4{
+        margin-left: 40px;
+        margin-top: -150px;
+        width: 50%;
+    }
+}
+
+/* for mobile */
+@media only screen and (max-width: 992px) {
+    .filtertop{
+        margin-top: 60px;
+    }
+    .selectedprops{
+        margin-bottom: 10px;
+    }
+    .selectedopt{
+        margin-top: 5px;
+    }
+}
+
+.dropcustom{
+    background-color: skyblue;
+}
+
+.removefilter{
+    cursor: pointer;
+}
+
+.clearall{
+    padding-top: 5px;
+    margin-left: 5px;
+    color: red;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pageroute{
+    margin-top: 15px;
+}
+
+.prodimages{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.prodshowcase{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.moreimg{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.mainimg{
+    padding: 30px;
+    cursor: pointer;
+}
+
+.down{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.sectionhead{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.proddata{
+    color: gray;
+    padding: 30px;
+}
+
+.stardata{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.stars{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.star{
+    margin-left: 5px;
+}
+
+.stardescription{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.ratings{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.progress{
+    height: 5px;
+    width: 100%px;
+    display: inline;
+}
+
+.ratingrow{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.col3ratings{
+    margin-top: 60px;
+}
+
+.addreview{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--color-primary);
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.col3stars{
+    margin-top: 10px;
+}
+
+.ratehead{
+    margin-left: 5px;
+}
+
+.usericon{
+    width: 40px;
+}
+
+.lastratings{
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.givenstars{
+    float: right;
+    margin-right: 30px;
+}
+
+.ratingsdate{
+    float: right;
+    margin-right: 55px;
+}
+
+.namereview{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.comment{
+    color: gray;
+    font-size: 12px;
+}
+
+.onerow{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.tworow{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.leftcol{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.prodname{
+    font-weight: 500;
+}
+
+.heart{
+    width: 15px;
+    cursor: pointer;
+}
+
+.price{
+    font-size: 12px;
+    color: gray;
+}
+
+.cost{
+    color: lightseagreen;
+    font-weight: 500;
+    font-size: 20px;
+}

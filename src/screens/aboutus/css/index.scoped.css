@@ -1,0 +1,141 @@
+.contentcontainer {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.item {
+  padding-bottom: 30px;
+}
+.item-details > p {
+  margin-bottom: 0px!important;
+}
+.item-details {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  color: var(--color-dark-grey);
+}
+
+.cardcontainer {
+  margin-top: 40px;
+}
+
+.border-radius-10 {
+  border-radius: 10px!important;
+}
+.yt-main-wrapper {
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+}
+.yt-main-wrapper .item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--color-black);
+  margin-bottom: 20px;
+}
+
+
+
+.yt-inner-wrap .yt-items.item:first-child {
+  padding-top: 0;
+}
+
+@media (min-width: 1900px) {
+  .yt-main-wrapper {
+    padding: 30px;
+  }
+}
+@media (max-width: 1280px) {
+  .yt-main-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .yt-cm-mobile-bread {
+    display: none;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .yt-main-wrapper {
+    margin: 0px 0px;
+    /* padding: 20px 20px; */
+  }
+  .yt-main-wrapper .item-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: normal;
+    margin-bottom: 11px;
+  }
+  .item-details {
+   
+    font-size: 14px;
+    line-height: 2.14;
+    letter-spacing: 0.14px;
+  }
+  .lastparagraph{
+    margin-bottom:0px!important;
+  }
+  .yt-inner-wrap .yt-items.item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width:1280px) and (max-width:1365px){
+  .yt-inner-wrap .yt-items.item {
+    padding-top: 0px!important;
+  }
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .pageroute {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 1.17;
+  }
+  .yt-profile-mb-ttl.profile-pg-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-cm-mobile-bread {
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .yt-main-wrapper {
+    /* margin: 10px 0 10px; */
+    padding: 20px;
+  }
+  .yt-main-wrapper .item-title {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .item-details {
+    line-height: 1.92;
+    letter-spacing: 0.12px;
+    font-size: 12px;
+  }
+  .yt-inner-wrap .yt-items.item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .yt-inner-wrap .yt-items.item {
+    padding:30px
+  }
+  
+}

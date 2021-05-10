@@ -1,0 +1,421 @@
+/*Order Detail css*/
+.pp-order-product-ttl {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-black);
+    cursor: pointer;
+    line-height: 1.17;
+  }
+  .order-ul-list-none {
+    list-style: none;
+  }
+  .profile-pg-order-main-wrap {
+    padding: 145px 0;
+  }
+  .radius-10 {
+    border-radius: 10px;
+  }
+  .profile-pg-inner-wrap.yt-my-order-wrap {
+    padding: 30px;
+  }
+  .op-order-quantity {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: normal;
+    color: var(--color-dark-grey);
+  }
+  .op-order-product-price {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1.08px;
+    color: var(--color-green);
+  }
+  .order-prodict-type th,
+  .order-prodict-type td {
+    padding: 3px;
+  }
+  .order-prodict-type th:first-child,
+  .order-prodict-type tr td:first-child {
+    padding-left: 0 !important;
+  }
+  .order-prodict-type th,
+  .order-prodict-type tr td {
+    padding-left: 44px !important;
+  }
+  .order-prodict-type th {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: var(--color-dark-grey);
+  }
+  .order-prodict-type td {
+    font-size: 17px;
+    line-height: 1.24;
+    color: var(--color-black);
+  }
+  
+  .od-product-img {
+    border-radius: 9px;
+    border: solid 1px #dbdbdb;
+    background-color: #ffffff;
+    max-width: 133px;
+  }
+  .order-product-info {
+    padding-left: 20px;
+  }
+  .yt-order-wrapper-box .order-product-quanity {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    bottom: 15px;
+  }
+  .yt-order-wrapper-box {
+    position: relative;
+  }
+  .order-number-wrap .order-tag,
+  .order-date-wrap .order-tag {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: normal;
+    color: var(--color-dark-grey);
+  }
+  .order-number-wrap .order-tag-val,
+  .order-date-wrap .order-tag-val {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    color: var(--color-green);
+  }
+  .order-bdr-between {
+    width: 2px;
+    background-color: #f6f8fa;
+    margin: 0 15px;
+    height: 18px;
+  }
+  .order-write-review {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--color-blue);
+    text-decoration: underline;
+  }
+  .order-cancel-btn {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: 0.69px;
+    text-align: left;
+    color: var(--color-orange);
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+  }
+  .pp-od-no-ttl {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.13;
+    color: var(--color-black);
+  }
+  .pp-od-no-text.mb-0 {
+    font-size: 16px;
+    line-height: 1.13;
+    color: var(--color-dark-grey);
+  }
+  .pp-no-order-btn {
+    opacity: 0.99;
+    border-radius: 6px;
+    background-color: var(--color-dark-black);
+    border-color: var(--color-dark-black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+    color: #ffffff;
+    width: 100%;
+    max-width: 200px;
+  }
+  .profile-pg-inner-wrapper .yt-order-wrapper-box:last-child {
+    padding-bottom: 0 !important;
+  }
+  .order-product-info {
+    padding-left: 40px;
+  }
+  
+  .profile-pg-order-main-wrap img {
+    max-height: 217px;
+  }
+  
+  /**/
+  .yt-order-wrapper-box .order-product-quanity .yt-qt-prc li {
+    width: 100%;
+    text-align: right;
+  }
+  .yt-order-wrapper-box .order-product-quanity .yt-qt-prc {
+    height: 100%;
+  }
+  /**/
+  @media (min-width: 1900px) {
+    .pp-order-product-ttl {
+      line-height: 1.67;
+    }
+    .profile-pg-inner-wrap.yt-my-order-wrap {
+      padding: 40px;
+    }
+  
+    .order-main-wrapper .profile-mo-dt-wrap {
+      padding-left: 173px;
+    }
+  }
+  @media (max-width: 1899.98px) {
+    .pp-order-product-ttl {
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 1900px) and (min-width: 1366px) {
+    .order-number-wrap .order-tag,
+    .order-date-wrap .order-tag,
+    .order-number-wrap .order-tag-val,
+    .order-date-wrap .order-tag-val {
+      font-size: 14px;
+      line-height: 1.36;
+    }
+    .order-write-review {
+      font-size: 16px;
+      line-height: 1.19;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    .order-prodict-type th {
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.46px;
+    }
+    .order-prodict-type td {
+      font-size: 16px;
+      line-height: 1.31;
+    }
+    .od-product-img {
+      max-width: 95px;
+      padding: 11px !important;
+    }
+    .od-product-img img {
+      width: 72px;
+      height: 72px;
+      object-fit: cover;
+      object-position: top;
+    }
+    .order-product-info {
+      padding-left: 20px;
+    }
+    .order-main-wrapper .profile-pg-inner-wrapper .btn.od-cancel-btn {
+      color: #e65e52;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+  /*
+  * Screen for under 1280 Resolution 
+  */
+  @media (max-width: 1279.92px) {
+    .profile-pg-order-main-wrap img {
+      margin-bottom: 40px !important;
+    }
+    .pp-sa-order-wrap {
+      margin-bottom: 40px !important;
+    }
+    .pp-od-no-ttl {
+      font-size: 24px;
+      line-height: 1.17;
+    }
+    .pp-od-no-text {
+      font-size: 14px;
+      line-height: 1.14;
+    }
+    .pp-no-order-btn {
+      font-size: 16px;
+      line-height: 1.13;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+    .profile-pg-order-main-wrap {
+      padding: 40px 0;
+    }
+    .od-product-img {
+      max-width: 70px;
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+    }
+    .order-product-info {
+      padding-left: 10px;
+    }
+    .pp-order-product-ttl {
+      font-size: 16px;
+      line-height: 1.13;
+      max-width: 200px;
+    }
+    .yt-my-order-wrap .order-prodict-type th {
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.38px;
+    }
+    .yt-my-order-wrap .order-prodict-type td {
+      font-size: 16px;
+      line-height: 1.31;
+    }
+    .yt-my-order-wrap .op-order-quantity {
+      font-size: 14px;
+      line-height: 1.36;
+    }
+    .yt-my-order-wrap .op-order-product-price {
+      font-size: 20px;
+      line-height: 1.15;
+    }
+    .yt-order-wrapper-box .order-product-quanity {
+      top: 15px;
+    }
+    .yt-my-order-wrap .order-number-wrap .order-tag,
+    .yt-my-order-wrap .order-date-wrap .order-tag {
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .yt-my-order-wrap .order-number-wrap .order-tag-val,
+    .yt-my-order-wrap .order-date-wrap .order-tag-val {
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .order-write-review {
+      font-size: 14px;
+      line-height: 1.36;
+      padding: 0;
+    }
+    .profile-pg-inner-wrap.yt-my-order-wrap {
+      padding: 18px 15px;
+    }
+    .profile-pg-inner-wrap.yt-my-order-wrap.yt-cc-ord {
+      padding-bottom: 40px;
+    }
+    .order-bdr-between {
+      margin: 0 7.5px;
+    }
+  }
+  
+  /*
+  * Screen for under 768 Resolution 
+  */
+  @media (max-width: 767.92px) {
+    .profile-pg-inner-wrap.profile-pg-inner-no-order {
+      padding: 20px 9px;
+    }
+    .profile-pg-order-main-wrap {
+      padding: 0;
+    }
+    .profile-pg-order-main-wrap img {
+      max-height: 165px;
+      margin-bottom: 16px !important;
+    }
+    .pp-od-no-ttl {
+      font-size: 17px;
+      line-height: 1.12;
+    }
+    .pp-od-no-text {
+      font-size: 15px;
+      line-height: 1.2;
+      max-width: 233px;
+      margin: 0 auto;
+    }
+    .pp-no-order-btn {
+      font-size: 14px;
+      line-height: 1.14;
+      width: 100%;
+      max-width: 100%;
+    }
+    .pp-sa-order-wrap {
+      margin-bottom: 30px !important;
+    }
+    /* yt-my-order-wrap */
+    .profile-pg-inner-wrap.yt-my-order-wrap {
+      padding: 15px;
+      position: relative;
+      margin: 67px 0;
+    }
+    .yt-my-order-wrap .od-product-img {
+      max-width: 70px;
+    }
+    .yt-my-order-wrap .order-product-info {
+      padding-left: 16px;
+    }
+    .yt-my-order-wrap .pp-order-product-ttl {
+      font-size: 14px;
+      line-height: 1.36;
+      max-width: 160px;
+    }
+    .yt-my-order-wrap .order-prodict-type th {
+      font-size: 10px;
+      line-height: 1.1;
+      letter-spacing: 0.38px;
+    }
+    .yt-my-order-wrap .order-prodict-type td {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .yt-my-order-wrap .op-order-quantity {
+      font-size: 10px;
+      line-height: 1.9;
+    }
+    .yt-my-order-wrap .op-order-product-price {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+    .profile-pg-inner-wrap .yt-my-order-tdet-wrap {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      margin: 10px 0px;
+      -ms-flex-align: start !important;
+      align-items: flex-start !important;
+    }
+    .yt-my-order-wrap .order-number-wrap .order-tag,
+    .yt-my-order-wrap .order-date-wrap .order-tag {
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .yt-my-order-wrap .order-number-wrap .order-tag-val,
+    .yt-my-order-wrap .order-date-wrap .order-tag-val {
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .yt-my-order-wrap .order-bdr-between {
+      display: none !important;
+    }
+    .yt-my-order-wrap .profile-mo-dt-wrap {
+      max-width: 60%;
+    }
+    .yt-my-order-wrap .order-write-review {
+      padding: 0 !important;
+      font-size: 14px;
+      line-height: 1.36;
+    }
+    .yt-my-order-wrap .order-cancel-btn {
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.54px;
+      position: absolute;
+      bottom: -25px;
+      right: 0;
+      padding: 0;
+    }
+    .yt-order-wrapper-box {
+      padding-top: 0 !important;
+    }
+    .yt-order-wrapper-box .order-product-quanity {
+      top: 0;
+      bottom: 5px;
+    }
+    .profile-pg-inner-wrap.yt-my-order-wrap.yt-cc-ord {
+      padding-bottom: 40px;
+    }
+  }
+  

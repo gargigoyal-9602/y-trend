@@ -1,0 +1,119 @@
+/*
+* YT Product Slider CSS
+*/
+
+.yt-product-fav {
+  width: 24px;
+}
+.yt-product-off {
+  background-color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.11;
+  min-width: 66px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: -1px;
+}
+.yt-product-slider-cpnt {
+  border: 1px solid #cae2fe;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.yt-component-wrapper {
+  border-radius: 10px;
+  position: relative;
+}
+.rec-item-wrapper {
+  outline: none !important;
+  box-shadow: none;
+}
+.yt-slider-left,
+.yt-slider-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.yt-item-slider {
+  position: relative;
+  width: 100%;
+  margin: 0px 10px;
+}
+.yt-product-add-btn.buttoncart {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  background-color: var(--color-dark-black);
+}
+.yt-product-title {
+  font-size: 20px;
+  line-height: 0.95;
+  color: var(--color-black);
+}
+
+.yt-component-more {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  text-align: right;
+  border-radius: 0;
+  color: var(--color-dark-grey);
+  border-bottom: 1px solid var(--color-dark-grey);
+  text-decoration: none !important;
+}
+.yt-comonent-top-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+  text-align: left;
+  color: var(--color-black);
+}
+.yt-product-slider-img {
+  max-height: 150px;
+}
+.yt-product-sale-price {
+  color: var(--color-blue);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+}
+.yt-product-reg-price2 {
+  padding-left: 8px;
+  color: var(--color-dark-grey);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+}
+.yt-product-add-btn {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .yt-slider-left {
+    left: -40px;
+  }
+  .yt-slider-right {
+    right: -40px;
+  }
+}
+@media (max-width: 768px) {
+  .yt-slider-left {
+    left: 5px !important;
+  }
+  .yt-slider-right {
+    right: 5px !important;
+  }
+}

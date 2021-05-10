@@ -1,0 +1,282 @@
+<div>
+    <style type="text/css">
+        /*
+        * Double CSS
+        */
+
+        .yt-doc-inner {
+            position: relative;
+        }
+
+        .yt-doc-tag,
+        .yt-doc-daily {
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 1.15;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        .yt-doc-price-tagline {
+            font-size: 16px;
+            line-height: 1.63;
+            text-align: left;
+            color: #ffffff;
+            padding-top: 22px;
+        }
+
+        .yt-doc-btn {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.11;
+            letter-spacing: 0.36px;
+            text-align: center;
+            color: #ffffff;
+            min-width: 180px;
+            opacity: 0.99;
+            border-radius: 6px;
+            background-color: var(--color-primary);
+            border-color: var(--color-primary);
+            margin-top: 35px;
+            border: unset;
+        }
+
+        .yt-doc-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 35px;
+        }
+
+        .yt-double-offer-component {
+            margin: 42px 0 40px;
+        }
+
+        .yt-doc-daily-2 {
+            font-size: 42px;
+            font-weight: bold;
+            line-height: 1.15;
+            text-align: left;
+            color: #fff;
+        }
+
+        .yt-doc-tag.yt-small-tag {
+            font-size: 28px;
+            line-height: 2;
+            font-weight: 500;
+        }
+
+        /* .yt-doc-btn {
+          position: absolute;
+          bottom: 30px;
+        } */
+
+        @media (min-width: 1366px) and (max-width: 1900px) {
+
+            .yt-doc-tag,
+            .yt-doc-daily {
+                font-size: 24px;
+                line-height: 1.46;
+            }
+
+            .yt-doc-daily-2 {
+                font-size: 40px;
+            }
+
+            .yt-doc-btn {
+                font-size: 16px;
+                line-height: 1.13;
+                letter-spacing: 0.32px;
+            }
+        }
+
+        @media (min-width: 1900px) {
+            .yt-double-offer-component {
+                margin: 31px 0 80px;
+            }
+
+            .yt-doc-tag,
+            .yt-doc-daily {
+                font-size: 40px;
+                line-height: 1.15;
+            }
+
+            .yt-doc-price-tagline {
+                font-size: 22px;
+                line-height: 1.73;
+            }
+
+            .yt-doc-tag.yt-small-tag {
+                font-size: 40px;
+                line-height: 2;
+                font-weight: 500;
+            }
+
+            .yt-doc-daily-2 {
+                font-size: 60px;
+            }
+
+            .yt-doc-btn {
+                margin-top: 57px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .yt-doc-btn {
+                margin: 0;
+                position: absolute;
+                bottom: 48px;
+            }
+        }
+
+        @media (max-width: 1399.98px) {}
+
+        @media (max-width: 1279.92px) and (min-width: 768px) {
+            .yt-doc-inner {
+                margin-bottom: 0px !important;
+            }
+        }
+
+        /*
+        * Screen for under 1280 Resolution 
+        */
+
+        @media (max-width: 1279.92px) {
+            .yt-double-offer-component {
+                margin: 10px 0 !important;
+            }
+
+            .yt-doc-tag,
+            .yt-doc-daily {
+                font-size: 20px;
+                line-height: 1.15;
+            }
+
+            .yt-doc-price-tagline {
+                padding-top: 1px !important;
+                font-size: 14px;
+                line-height: 0.93;
+            }
+
+            .yt-doc-btn {
+                margin-top: 16px !important;
+                font-size: 16px;
+                line-height: 1.13;
+                letter-spacing: 0.32px;
+                padding-top: 10px !important;
+                padding-bottom: 12px !important;
+                width: 100%;
+                max-width: 150px;
+            }
+
+            .yt-doc-box {
+                padding: 18px 15px !important;
+            }
+
+            .yt-doc-tag.yt-small-tag {
+                font-size: 14px !important;
+                line-height: 2.29 !important;
+            }
+
+            .yt-doc-daily-2 {
+                font-size: 20px;
+                margin-bottom: 4px;
+            }
+        }
+
+        /*
+        * Screen for under 768 Resolution 
+        */
+
+        @media (max-width: 767.88px) {
+            .yt-double-offer-component .yt-cm-col {
+                -ms-flex: 0 0 100% !important;
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+            }
+
+            .yt-doc-tag,
+            .yt-doc-daily,
+            .yt-doc-daily-2 {
+                font-size: 20px;
+                line-height: 1.15;
+            }
+
+            .yt-doc-price-tagline {
+                padding-top: 5pt !important;
+            }
+
+            .yt-doc-price-tagline,
+            .yt-doc-tag.yt-small-tag {
+                font-size: 14px;
+                line-height: 0.93;
+            }
+
+            .yt-doc-btn {
+                font-size: 14px;
+                line-height: 1.14;
+                padding-top: 14px !important;
+                padding-bottom: 14px !important;
+                max-width: 120px !important;
+            }
+
+            .yt-doc-box {
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .yt-double-offer-component .yt-cm-col:first-child .yt-doc-inner {
+                margin-bottom: 10px !important;
+            }
+
+        }
+
+        @media (max-width: 576px) {
+            .yt-doc-box {
+                top: 0;
+                bottom: 0;
+                transform: none;
+            }
+
+            .yt-doc-btn {
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+    </style>
+
+    <section class="yt-double-offer-component">
+        <div class="container">
+            <div class="row yt-cm-db-row ">
+                <div class="col-sm-12 col-lg-6 yt-cm-col ">
+                    <div class="yt-doc-inner mb-4 mb-lg-0 "><img alt="ytrend " class="img-fluid three "
+                            src="https://s3.amazonaws.com/rentatowel/images/images/000/000/039/original/offer-1.png">
+                        <div class="yt-doc-box ">
+                            <div class="yt-doc-tag ">Hurry Up!</div>
+
+                            <div class="yt-doc-daily ">Daily Deal Of The Day</div>
+
+                            <div class="yt-doc-price-tagline ">Low prices on 1000+ products every day</div>
+                            <form action="/shop">
+                                <button class="secondary yt-doc-btn py-3  w3-hover-dark-grey w3-hover-border-dark-grey w3-hover-shadow">Shop Now</button></form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yt-cm-col col-sm-12 col-lg-6 ">
+                    <div class="yt-doc-inner "><img alt="ytrend " class="img-fluid three "
+                            src="https://s3.amazonaws.com/rentatowel/images/images/000/000/040/original/offer-2.png">
+                        <div class="yt-doc-box ">
+                            <div class="yt-doc-tag yt-small-tag ">Happy Times!</div>
+
+                            <div class="yt-doc-daily-2 ">Flat 30% Off</div>
+                            <form action="/shop"><button class="secondary yt-doc-btn py-3  w3-hover-dark-grey w3-hover-border-dark-grey w3-hover-shadow">Shop Now</button></form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,251 @@
+/*
+* Global CSS of Help Center
+*/
+
+/*
+* Breadcrumbs CSS
+*/
+.hc-breadcrumbs {
+  color: var(--color-dark-grey);
+  font-size: 12px;
+  line-height: 1.17;
+}
+.hc-inner-wrap {
+  padding: 40px 40px 36px;
+}
+.hc-inner-contnet .hc-tabs-name li:first-child {
+  padding-top: 0;
+}
+.hc-inner-contnet .hc-tabs-name li:last-child {
+  padding-bottom: 0;
+}
+.hc-current {
+  color: var(--color-black);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.hc-beckfrom-ct-page {
+  margin-top: 50px;
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+}
+.hc-mb-30 {
+  margin-bottom: 30px;
+}
+.hc-mt-30 {
+  margin-bottom: 30px;
+}
+.hc-mb-50 {
+  margin-bottom: 50px;
+}
+.radius-10 {
+  border-radius: 10px;
+}
+.list-style-none {
+  list-style: none;
+}
+.hcp-back-arrow {
+  cursor: pointer;
+}
+/*
+* Left Col CSS
+*/
+.hc-inner-contnet .hc-tabs-name li {
+  padding: 23.5px 0;
+  border-bottom: 2px solid #cae2fe;
+  font-size: 18px;
+  line-height: 1.15;
+  color: var(--color-black);
+  cursor: pointer;
+}
+.hc-inner-contnet .hc-tabs-name li:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+.hc-inner-contnet .hc-tabs-name li.active {
+  font-weight: 500;
+  color: var(--color-blue);
+}
+
+/*
+* Right Col CSS
+*/
+
+.hc-tab-main-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: var(--color-black);
+  margin-bottom: 40px;
+}
+.hc-tab-sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+.ht-tab-description {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  color: var(--color-dark-grey);
+}
+.hc-tab-content {
+  padding: 40px 40px 23px 30px;
+}
+.yt-cm-lt-col {
+  padding-right: 7px;
+}
+.yt-cm-rt-col {
+  padding-left: 7px;
+}
+@media (min-width: 768px) {
+  .hc-inner-contnet.yt-tab-movile-hc,
+  .yt-mb-pg-ttl {
+    display: none;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .hc-inner-wrap {
+    padding: 30px;
+  }
+  .hc-inner-contnet .hc-tabs-name li {
+    padding: 15px 0;
+  }
+}
+@media (min-width: 1280.88px) {
+  .yt-cm-lt-col {
+    padding-right: 10px;
+  }
+  .yt-cm-rt-col {
+    padding-left: 10px;
+  }
+  .hc-tab-content {
+    margin-top: 115px;
+  }
+}
+@media (min-width: 1400px) {
+  .hc-tab-content {
+    padding: 40px 40px 23px;
+  }
+}
+@media (min-width: 1900px) {
+  .yt-cm-lt-col {
+    padding-right: 20px;
+  }
+  .yt-cm-rt-col {
+    padding-left: 20px;
+  }
+  .hc-inner-contnet .hc-tabs-name li {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1279.92px) and (min-width: 768px) {
+  .yt-cm-lt-col {
+    max-width: 30%;
+  }
+  .yt-cm-rt-col {
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .yt-cm-lt-col .hc-inner-wrap {
+    padding: 33px 15px;
+  }
+  .hc-inner-wrap.hc-tab-content {
+    margin-top: 48px;
+    padding: 15px;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .hc-beckfrom-ct-page {
+    margin: 0 0 20px !important;
+  }
+
+  .hc-tab-main-title {
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 17px;
+  }
+  .hc-inner-contnet .hc-tabs-name li {
+    font-size: 14px;
+    line-height: 1.14;
+    padding: 20px 0;
+  }
+  .hc-tab-sub-title {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .ht-tab-description {
+    font-size: 14px;
+    line-height: 2.14;
+    letter-spacing: 0.14px;
+  }
+  .hc-beckfrom-ct-page {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .hc-inner-contnet.yt-desk-hc {
+    display: none;
+  }
+  .yt-cm-lt-col {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  .hc-beckfrom-ct-page {
+    margin: 10px 0 !important ;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .hc-beckfrom-ct-page svg {
+    display: none;
+  }
+  .hc-inner-wrap {
+    padding: 20px;
+  }
+  .hc-inner-contnet .hc-tabs-name li {
+    line-height: 1.2;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+  .yt-desktop-datapg .yt-cm-rt-col,
+  .yt-mobile-datapg .yt-cm-lt-col {
+    display: none;
+  }
+  .yt-mobile-datapg .yt-cm-rt-col {
+    display: block;
+  }
+  .yt-mb-pg-ttl .hc-beckfrom-ct-page svg {
+    display: block;
+  }
+  .hc-tab-main-title {
+    font-size: 18px;
+    line-height: 1.11;
+    position: absolute;
+    top: 9px;
+    margin: 0 !important;
+    left: 35px;
+  }
+  .hc-tab-sub-title {
+    line-height: 1.13;
+    font-size: 16px;
+  }
+  .ht-tab-description {
+    font-size: 12px;
+    line-height: 1.92;
+    letter-spacing: 0.12px;
+  }
+}

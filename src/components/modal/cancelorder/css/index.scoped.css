@@ -1,0 +1,61 @@
+.co-title-bar .modal-title {
+  margin: 0;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: var(--color-dark-grey);
+}
+.co-body-text {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--color-dark-grey);
+}
+.co-title-bar span {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.pp-co-btn-modal {
+  width: 50%;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  border-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.pp-co-btn-modal:hover {
+  border-color: #fff;
+}
+.pp-co-btn-light-grey {
+  color: var(--color-dark-grey);
+}
+.pp-co-btn-dark-grey {
+  color: var(--color-black);
+}
+.yt-form-spacer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto !important;
+  display: block;
+  bottom: 10px;
+  width: 2px;
+  top: 10px;
+  background: #dbdbdb;
+}
+.co-bottom-bar {
+  position: relative;
+  border-top: 2px solid #dbdbdb;
+}

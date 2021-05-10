@@ -1,0 +1,16 @@
+.yt-sglproduct-fav {
+  font-size: 24px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+.yt-sglproduct-fav.active {
+  color: var(--color-orange);
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .yt-sglproduct-fav {
+    font-size: 16px;
+  }
+}

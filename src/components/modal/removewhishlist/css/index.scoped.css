@@ -1,0 +1,59 @@
+.remove-wh-lst-title-bar .modal-title {
+  margin: 0;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: var(--color-dark-grey);
+}
+.remove-wh-lst-body-text {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--color-orange);
+}
+.remove-wh-lst-title-bar span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  line-height: 1.11;
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 500;
+}
+.pp-remove-wh-lst-btn-modal {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  border-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.pp-remove-wh-lst-btn-modal:hover {
+  border-color: #fff;
+}
+.pp-remove-wh-lst-btn-light-grey {
+  color: var(--color-dark-grey);
+}
+.pp-remove-wh-lst-btn-dark-grey {
+  color: var(--color-black);
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .remove-wh-lst-body-text {
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 1900px) and (min-width: 1366px) {
+}

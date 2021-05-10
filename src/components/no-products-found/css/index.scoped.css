@@ -1,0 +1,109 @@
+.radius-10 {
+  border-radius: 10px;
+}
+.trans-fl-pg-mb-30 {
+  margin-bottom: 30px;
+}
+.trans-fl-pg-mb-80 {
+  margin-bottom: 80px;
+}
+.trans-fl-ttl {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: var(--color-orange);
+}
+.trans-fl-text {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+.trans-fl-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  border-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+}
+.trans-fl-cancel-btn {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--color-dark-grey);
+  box-shadow: none !important;
+}
+.yt-transaction-cl-icn {
+  max-height: 135px;
+  width: auto;
+}
+.trans-fl-pg-inner-wrap {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1280px) {
+  .trans-fl-pg-inner-wrap {
+    margin-top: 0px !important;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1900px) {
+  .trans-fl-pg-inner-wrap {
+    margin-top: 0px !important;
+    margin-bottom: 80px;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .trans-fl-pg-inner-wrap {
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+  }
+  .trans-fl-wrap {
+    margin-top: 75px;
+    margin-bottom: 40px;
+  }
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .trans-fl-pg-inner-wrap {
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+    padding: 11px 20px 20px !important;
+  }
+  .trans-fl-btn {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    max-width: 100%;
+  }
+  .cart-pg-empty-main-wrap {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  .trans-fl-cancel-btn {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .trans-fl-ttl {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .trans-fl-text {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .trans-fl-wrap {
+    margin-bottom: 22px !important;
+    margin-top: 20px !important;
+  }
+}

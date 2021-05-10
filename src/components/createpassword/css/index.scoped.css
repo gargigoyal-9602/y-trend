@@ -1,0 +1,280 @@
+.yt-create-pw-wrap {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+.yt-cpp-mb-5 {
+  margin-bottom: 50px;
+}
+.yt-cpp-mt-5 {
+  margin-top: 50px;
+}
+.yt-cp-top-back-tag-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  color: var(--color-blue);
+}
+.yt-cp-back-icn {
+  font-size: 40px;
+}
+.yt-cp-bg-banner {
+  background-image: url(../images/login-image.jpg);
+  height: 100%;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  min-height: 636px;
+}
+.yt-cp-other-info {
+  position: absolute;
+  right: 40px;
+  bottom: 10%;
+}
+.yt-cp-oi-tag-small {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+}
+.yt-cp-oi-tag-big {
+  font-size: 57px;
+  font-weight: bold;
+  line-height: 1.14;
+  color: #ffffff;
+}
+.yt-cp-bdr {
+  height: 2px;
+  background: #ced6dc;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  position: absolute;
+  bottom: 75px;
+  right: -40px;
+}
+.yt-cp-sp-now {
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  border: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  padding: 15px 25px;
+  margin-top: 50px;
+}
+.yt-pas-eye-icn {
+  position: absolute;
+  top: 14px;
+  right: 25px;
+  color: var(--color-dark-grey);
+}
+.yt-cp-tag-line {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: left;
+  color: var(--color-black);
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.yt-cp-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.yt-cp-icn {
+  max-width: 24px;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.yt-cp-form .form-group .form-control {
+  padding-left: 65px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: auto;
+  margin-bottom: 9px;
+  box-shadow: none;
+  border: solid 1px #cae2fe;
+}
+.yt-pass-info {
+  font-size: 11px;
+  line-height: 1.1;
+  color: var(--color-black);
+}
+.yt-reenter-pass {
+  font-size: 13px;
+  line-height: 1.17;
+}
+.yt-cp-btn {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px;
+  opacity: 0.99;
+  border-radius: 5px;
+  background-color: var(--color-dark-black);
+}
+.yt-cp-skip-btn {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+.yt-cp-form .error.form-group .form-control {
+  border: solid 1px var(--color-orange);
+}
+.yt-cp-form .error.form-group .yt-reenter-pass {
+  color: var(--color-orange);
+}
+
+.yt-cp-form .success.form-group .yt-reenter-pass {
+  color: var(--color-green);
+}
+.yt-cp-inner-content.yt-banner-col {
+  width: 45%;
+}
+.yt-cp-inner-content.yt-form-col {
+  padding-left: 0px;
+  width: 100%;
+}
+@media (min-width: 1900px) {
+  .yt-cret-row .yt-banner-col,
+  .yt-cret-row .yt-form-col {
+    width: 100%;
+  }
+  .yt-create-pw-wrap {
+    max-width: 600px;
+  }
+  .col-xxl-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-xxl-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .yt-create-pw-wrap {
+    max-width: 588px;
+    padding: 0;
+    margin-top: 37px;
+  }
+  .yt-cret-row .yt-cp-inner-content {
+    width: 100%;
+  }
+  .yt-cret-row .yt-cp-bg-banner {
+    order: 2;
+  }
+  .yt-cp-inner-content.yt-form-col {
+    padding: 32px 30px 20px;
+  }
+  .yt-cp-top-back-tag-name {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .yt-cp-tag-line {
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 20px;
+    margin-top: 23px;
+  }
+  .yt-cp-tag-line-2 {
+    margin-bottom: 34px;
+    margin-top: 0;
+  }
+  .yt-cp-form .form-group .form-control {
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .yt-cp-form .form-group {
+    margin-bottom: 20px;
+  }
+  .yt-cp-btn {
+    font-size: 16px;
+    line-height: 1.13;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .yt-cp-bg-banner {
+    min-height: 211px;
+    background-position: 100% 35%;
+  }
+  .yt-cp-oi-tag-small {
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 11px;
+  }
+  .yt-cp-oi-tag-big {
+    font-size: 48px;
+    line-height: 1.15;
+    margin: 0;
+  }
+  .yt-cp-sp-now {
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.32px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-top: 30px;
+  }
+  .yt-cp-bdr {
+    bottom: 55px !important;
+  }
+  .yt-cp-form {
+    margin-bottom: 0 !important;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.88px) {
+  .yt-cp-inner-content.yt-form-col {
+    padding: 15px 15px 10px;
+  }
+  .yt-create-pw-wrap {
+    max-width: 335px;
+    margin-top: 10px;
+  }
+  .yt-cp-tag-line {
+    font-size: 12px;
+    line-height: 1.17;
+    margin-top: 10px;
+  }
+  .yt-cp-tag-line-2 {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .yt-cp-form .form-group .form-control {
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
+  .yt-cp-form {
+    margin-bottom: 15px;
+  }
+  .yt-cp-oi-tag-small {
+    font-size: 10px;
+    line-height: 1.11;
+  }
+  .yt-cp-oi-tag-big {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .yt-cp-bg-banner {
+    min-height: 180px;
+  }
+}

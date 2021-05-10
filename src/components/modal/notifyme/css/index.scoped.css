@@ -1,0 +1,55 @@
+.notify-me-title-bar .modal-title {
+  margin: 0;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: var(--color-dark-grey);
+}
+.notify-me-body-text {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--color-dark-grey);
+}
+.notify-me-title-bar span {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.pp-notify-me-btn-modal {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  border-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-black);
+}
+.pp-notify-me-btn-modal:hover {
+  border-color: #fff;
+}
+.pp-notify-me-btn-light-grey {
+  color: var(--color-dark-grey);
+}
+.pp-notify-me-btn-dark-grey {
+  color: var(--color-black);
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .notify-me-body-text {
+    text-align: center !important;
+  }
+}

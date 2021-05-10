@@ -1,0 +1,107 @@
+.pp-ca-list-none {
+  list-style: none;
+}
+.pp-ca-tag-name {
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: left;
+  color: var(--color-dark-grey);
+}
+.pp-ca-user-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--color-black);
+}
+.pp-ca-listing li {
+  padding: 30px 0;
+  border-bottom: 2px solid #cae2fe;
+}
+.pp-ca-listing li:last-child {
+  border: none;
+}
+.profile-pg-inner-wrapper .pp-ca-main-wrap {
+  padding: 40px 30px 30px;
+}
+.profile-pg-inner-wrap {
+  border: 1px solid #e6e6e6;
+}
+.pp-ca-name {
+  min-height: 40px;
+}
+.radius-10 {
+  border-radius: 10px;
+}
+.profile-pg-mb-30 {
+  margin-bottom: 30px;
+}
+
+.profile-pg-inner-wrapper .pp-ca-main-wrap .pp-ca-listing li:first-child {
+  padding-top: 0;
+}
+.profile-pg-inner-wrapper .pp-ca-main-wrap .pp-ca-listing li:last-child {
+  padding-bottom: 0;
+}
+.pp-no-addr-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  border-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  width: 100%;
+  max-width: 200px;
+}
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .pp-ca-type img {
+    width: 38px;
+    height: 38px;
+  }
+  .profile-pg-inner-wrapper .pp-ca-main-wrap {
+    padding: 30px;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .profile-pg-inner-wrapper .pp-ca-main-wrap {
+    padding: 13px 15px 26px;
+  }
+  .pp-ca-tag-name {
+    font-size: 12px;
+    line-height: 1.17;
+    margin-bottom: 5px !important;
+  }
+  .pp-ca-user-name {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .pp-ca-listing li {
+    padding: 20px 0;
+  }
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .profile-pg-inner-wrapper .pp-ca-main-wrap {
+    padding: 22px 20px;
+  }
+  .pp-ca-tag-name {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .pp-ca-user-name {
+    font-size: 17px;
+    line-height: 1.12;
+  }
+  .pp-ca-listing li {
+    padding: 15px 0;
+  }
+  .pp-ca-remove {
+    opacity: 0.5;
+  }
+}

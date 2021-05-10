@@ -1,0 +1,91 @@
+.delete-addr-title-bar .modal-title {
+  margin: 0;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: var(--color-dark-grey);
+}
+.delete-addr-body-text {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+.delete-addr-title-bar span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  top: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.delete-addr-bottom-bar {
+  border-top: 2px solid #dbdbdb !important;
+  position: relative;
+}
+.yt-form-spacer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto !important;
+  display: block;
+  bottom: 10px;
+  width: 2px;
+  top: 10px;
+  background: #dbdbdb;
+}
+.pp-delete-addr-btn-modal {
+  width: 48%;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  border-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.pp-delete-addr-btn-modal:hover {
+  border-color: #fff;
+}
+.pp-delete-addr-btn-light-grey {
+  color: var(--color-dark-grey);
+}
+.pp-delete-addr-btn-dark-grey {
+  color: var(--color-black);
+}
+.pp-add-edit-btn {
+  box-shadow: none !important;
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .delete-addr-title-bar span {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .delete-addr-body-text {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+}
+
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .delete-addr-title-bar span {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .delete-addr-body-text {
+    font-size: 15px;
+    line-height: 1.2;
+    padding-top: 0 !important;
+  }
+}

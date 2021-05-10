@@ -1,0 +1,78 @@
+.pr-body-title {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: left;
+  color: var(--color-dark-grey);
+  margin-top: 22px;
+}
+#product-review-description {
+  min-height: 160px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.pr-rate-submit-btn {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-black) !important;
+  border: 2px solid #fff !important;
+  box-shadow: none !important;
+}
+.yt-rating-wrapper.react-stars svg {
+  font-size: 29px;
+}
+.pr-rate-submit-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pr-rate-submit-btn:hover {
+  border: 2px solid #fff !important;
+  box-shadow: none !important;
+  color: var(--color-black);
+}
+.pr-title-bar span {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.cm-product-star-rating span:last-child {
+  margin-right: 0;
+}
+.cm-product-star-rating span:first-child {
+  margin-left: 0;
+}
+.cm-product-star-rating span {
+  margin: 0 5px;
+}
+.cm-modal-body {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.pr-bottom-bar {
+  margin-top: 5px;
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .cm-modal-body {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .yt-rating-wrapper {
+    margin: 0 auto;
+  }
+  .pr-body-title {
+    text-align: center;
+  }
+}

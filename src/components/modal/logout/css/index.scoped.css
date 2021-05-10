@@ -1,0 +1,98 @@
+.log-out-title-bar .modal-title {
+  margin: 0;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: var(--color-dark-grey);
+}
+.log-out-body-text {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--color-dark-grey);
+}
+.log-out-title-bar span {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.pp-log-out-btn-modal {
+  width: 48%;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  border-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.pp-log-out-btn-modal:hover {
+  border-color: #fff;
+}
+.pp-log-out-btn-light-grey {
+  color: var(--color-dark-grey);
+}
+.pp-log-out-btn-dark-grey {
+  color: var(--color-black);
+}
+.log-out-bottom-bar {
+  position: relative;
+  border-top: 2px solid #dbdbdb;
+}
+.yt-form-spacer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto !important;
+  display: block;
+  bottom: 10px;
+  width: 2px;
+  top: 10px;
+  background: #dbdbdb;
+}
+.yt-log-body-wrap.modal-body {
+  padding: 33px 45px 49px;
+}
+
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .log-out-title-bar span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+  }
+
+  .log-out-body-text {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .log-out-title-bar span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+  }
+  .yt-log-body-wrap.modal-body {
+    padding: 22px 5px 30px;
+  }
+  .log-out-body-text {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}

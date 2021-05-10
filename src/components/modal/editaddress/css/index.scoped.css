@@ -1,0 +1,149 @@
+/*
+* Add Address Modal CSs
+*/
+.edit-add-addr-title-bar {
+  border-color: #dbdbdb;
+  border-width: 2px;
+}
+.edit-add-addr-title-bar span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  top: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.edit-add-addr-body-wrap .form-control {
+  height: auto;
+  border: none;
+  border-bottom: 2px solid #dbdbdb;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.edit-editadd-addr-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  margin-top: 30px;
+}
+/* Chrome, Safari, Edge, Opera */
+.edit-add-addr-body-wrap input::-webkit-outer-spin-button,
+.edit-add-addr-body-wrap input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.edit-add-addr-body-wrap .form-control input[type="number"] {
+  -moz-appearance: textfield;
+}
+.edit-add-addr-body-wrap .profile-form-tag {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+}
+.edit-addr-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  margin-top: 30px;
+}
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .edit-add-addr-body-wrap .cm-edit-add-col {
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .edit-add-addr-body-wrap {
+    padding: 8px 0;
+  }
+  form.yt-fp-form .form-group {
+    margin-bottom: 30px;
+  }
+  form.yt-fp-form .edit-addr-btn {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.13;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .edit-add-addr-title-bar span {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-edit-add-body {
+    padding: 30px 40px !important;
+  }
+  .edit-add-addr-body-wrap .profile-form-tag {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .edit-add-addr-body-wrap .form-control {
+    font-size: 18px;
+    line-height: 1.11;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+  .edit-addr-btn {
+    opacity: 0.99;
+    border-radius: 6px;
+    background-color: var(--color-dark-black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.98px) {
+  .edit-add-addr-title-bar span {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-edit-add-body {
+    padding: 20px 15px !important;
+  }
+  .edit-add-addr-body-wrap .profile-form-tag {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .edit-add-addr-body-wrap .form-control {
+    font-size: 17px;
+    line-height: 1.12;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+  }
+  .edit-addr-btn {
+    opacity: 0.99;
+    border-radius: 6px;
+    background-color: var(--color-dark-black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+}

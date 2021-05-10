@@ -1,0 +1,105 @@
+@import url("../fonts/GTWalsheimPro/stylesheet.css");
+
+body {
+  background-color: #f6f8fa !important;
+  font: 15px "GT Walsheim Pro", Arial, Helvetica, sans-serif !important;
+  padding: unset !important;
+  color:unset !important;
+}
+
+input:disabled {
+  background: #fff !important;
+}
+
+.modal-backdrop.show {
+  opacity: 0.8;
+  background-color: var(--color-black);
+}
+div:focus {
+  outline: none !important;
+}
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.modal-content {
+  border-radius: 10px;
+}
+/*
+* Global Remove Number field arrow
+*/
+.yt-fp-form
+  .yt-number-filed.form-group
+  .form-control::-webkit-outer-spin-button,
+.yt-fp-form
+  .yt-number-filed.form-group
+  .form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.yt-fp-form .yt-number-filed.form-group .form-control[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*END*/
+@media (min-width: 576px) {
+  .cm-small-modal {
+    max-width: 350px;
+  }
+}
+@media (min-width: 768px) {
+  .cm-small-modal-6 {
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px) {
+  .cm-small-modal-4 {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767.92px) {
+  .cm-small-modal-4 {
+    max-width: 286px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cm-small-modal-6 {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1281px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 93.3%;
+  }
+}
+@media (min-width: 1900px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 88.9%;
+  }
+}
+@media (max-width: 1280px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,93 @@
+.radius-10 {
+  border-radius: 10px;
+}
+.orderplc-pg-mb-30 {
+  margin-bottom: 30px;
+}
+
+.yt-order-placed-icn {
+  max-height: 135px;
+  width: auto;
+}
+.orderplc-ttl {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: var(--color-green);
+}
+.orderplc-text {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+.orderplc-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  border-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  width: 100%;
+  max-width: 180px;
+}
+.orderplc-pg-inner-wrap {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1900px) {
+  .orderplc-pg-mb-80 {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .orderplc-pg-inner-wrap {
+    margin-top: 60px !important;
+    margin-bottom: 60px;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .orderplc-pg-inner-wrap {
+    margin-top: 20px !important;
+    margin-bottom: 60px;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .orderplc-pg-inner-wrap {
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+    padding: 20px !important;
+  }
+  .orderplc-pg-success-main-wrap {
+    padding-bottom: 0 !important;
+  }
+  .yt-order-placed-icn {
+    max-height: 85px;
+  }
+  .orderplc-ttl {
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .orderplc-text {
+    line-height: 1.14;
+    font-size: 14px;
+  }
+  .orderplc-btn {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    max-width: 100%;
+  }
+}

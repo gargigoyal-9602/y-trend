@@ -1,0 +1,145 @@
+/*
+* Add Address Modal CSs
+*/
+.add-addr-title-bar {
+  border-color: #dbdbdb;
+  border-width: 2px;
+}
+.add-addr-title-bar span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  top: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.ad-addr-body-wrap .form-control {
+  height: auto;
+  border: none;
+  border-bottom: 2px solid #dbdbdb;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.ad-addr-body-wrap .profile-form-tag {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+}
+.add-addr-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.profile-form-field.error .profile-form-tag {
+  color: var(--color-orange);
+}
+.profile-form-field.error .form-control {
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+}
+.invalid_error {
+  color: var(--color-orange);
+}
+.fields-active.error {
+  padding-top: 5px;
+  display: block;
+}
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .ad-addr-body-wrap .cm-edit-add-col {
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .ad-addr-body-wrap {
+    padding: 8px 0;
+  }
+  .ad-addr-body-wrap .form-group {
+    margin-bottom: 30px;
+  }
+  .ad-addr-body-wrap .add-addr-btn {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.13;
+  }
+  .fields-active.error {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .add-addr-title-bar span {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-add-modal-body {
+    padding: 30px 40px 20px !important;
+  }
+  .ad-addr-body-wrap .profile-form-tag {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .ad-addr-body-wrap .form-control {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .add-addr-btn {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: normal;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .add-addr-title-bar span {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .ad-addr-body-wrap .profile-form-tag {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .ad-addr-body-wrap .form-control {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    font-size: 17px;
+    line-height: 1.12;
+  }
+  .ad-addr-body-wrap .yt-fp-form .form-group {
+    margin-bottom: 20px !important;
+  }
+  .yt-add-modal-body {
+    padding: 20px 15px !important;
+  }
+  .add-addr-btn {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.4px;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+}

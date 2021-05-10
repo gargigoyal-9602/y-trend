@@ -1,0 +1,178 @@
+/*
+* Hero Banner CSS
+*/
+.hc-hero-bg-img {
+  background-image: url("../images/heroimage.png");
+  background-size: cover;
+  background-position: 100%;
+  min-height: 300px;
+  position: relative;
+}
+.hc-hero-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.36px;
+  color: #fff;
+  max-width: 180px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 60px;
+  width: 100%;
+}
+.yt-soc-inner-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 20%;
+}
+.yt-soc-title{
+  color: var(--color-black);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.15;
+}
+.yt-soc-subtitle{
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.15;
+}
+.button {
+  width: 140px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.hc-hero-banner {
+  position: relative;
+}
+@media only screen and (max-width: 992px) {
+  .heroimage {
+    width: 100%;
+  }
+  .shopnow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .yt-soc-inner-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 7%;
+  }
+  .yt-soc-title{
+    font-size: 25px;
+  }
+  .yt-soc-subtitle{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .heroimage {
+    width: 100%;
+  }
+  .shopnow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: -100px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+
+
+.herocontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  max-width: 1366px;
+}
+.hc-hero-banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.98px) {
+  .hc-hero-banner {
+    min-height: 200px;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.88px) {
+  .hc-hero-btn {
+    font-size: 14px;
+    line-height: 1.14;
+    max-width: 120px;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    bottom: 43px;
+  }
+  .hc-hero-banner {
+    min-height: 200px;
+  }
+  
+}
+/*
+* Screen for 1280 Resolution 
+*/
+
+@media (min-width: 1280px) {
+  .hc-hero-banner {
+    min-height: 300px;
+  }
+}
+/*
+* Screen for 1920 Resolution 
+*/
+@media (min-width: 1900px) {
+  .hc-hero-btn {
+    bottom: 95px;
+  }
+  .hc-hero-banner {
+    min-height: 422px;
+  }
+}

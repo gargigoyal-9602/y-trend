@@ -1,0 +1,8 @@
+export default {
+  GET_CATEGOTY: "GET_CATEGOTY",
+
+  //MAIN Actions
+  UPDATE_CART: "UPDATE_CART",
+  DEL_ITEM_CART: "DEL_ITEM_CART",
+  CLEAN_CART: "CLEAN_CART"
+};

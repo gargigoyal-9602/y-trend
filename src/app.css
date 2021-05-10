@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #d4c96d;
+  --color-white: #ffffff;
+  --color-black: #3e454f;
+  --color-dark-grey: #8b8f95;
+  --color-dark-black: #242724;
+  --color-green: #43b7a7;
+  --color-orange: #e65e52;
+  --color-blue: #30458c;
+}
+#root br {
+  display: none;
+}

@@ -1,0 +1,402 @@
+.yt-filter-title {
+  font-size: 18px;
+  color: var(--color-black);
+  line-height: 1.11;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.yt-box-title {
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--color-black);
+  margin-bottom: 25px;
+}
+
+.yt-ul-list-none {
+  list-style: none;
+}
+
+.yt-cat-name,
+.yt-color-name,
+.yt-size-name {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--color-dark-grey);
+}
+
+.yt-main-filter-box ul li:last-child {
+  margin-bottom: 0 !important;
+  /*padding-bottom: 0 !important;*/
+}
+
+.yt-filter-divider {
+  display: block;
+  height: 2px;
+  background: #f6f8fa;
+  margin: 7.5px 0;
+}
+
+.yt-filter-search-wrap {
+  position: relative;
+}
+
+.yt-search-icn {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 22px;
+  padding: 11px;
+  box-sizing: content-box;
+  background: #fff;
+  bottom: 2px;
+  border-radius: 7px;
+  color: #a1a4a9;
+}
+
+.yt-color-search-bar {
+  border-radius: 7px;
+  border: solid 1px #dbdbdb;
+  background-color: #ffffff;
+  width: 100%;
+  padding-left: 54px;
+}
+
+.yt-filter-checkbox-wrap .yt-filter-label {
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+}
+
+.yt-filter-checkbox-wrap .yt-filter-label:before {
+  content: "";
+  -webkit-appearance: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  border: solid 1px #979797;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.yt-filter-checkbox-wrap input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 6px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  z-index: 5;
+}
+
+.yt-filter-checkbox-wrap input:checked + label:before {
+  background-color: #000;
+}
+
+.yt-filter-checkbox-wrap input {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.yt-filter-checkbox-wrap {
+  position: relative;
+  text-align: right;
+}
+
+.yt-color-name {
+  position: relative;
+}
+
+.yt-color-name::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.yt-color-name.Baby.Pink::after {
+  background-color: #f4c2c2;
+}
+
+.yt-color-name.Beig::after {
+  background-color: #f5f5dd;
+}
+
+.yt-color-name.Black::after {
+  background-color: #000000;
+}
+
+.yt-color-name.Blue::after {
+  background-color: #0000fe;
+}
+
+.yt-color-name.Bottle.Green::after {
+  background-color: #006a4e;
+}
+
+.yt-color-name.Brown::after {
+  background-color: #d3691f;
+}
+
+.yt-color-name.Green::after {
+  background-color: #008001;
+}
+
+.yt-color-name.Indigo::after {
+  background-color: #4c0182;
+}
+
+.yt-color-black {
+  color: var(--color-black) !important;
+}
+.yt-filter-inner-wrap .yt-ul-list-none {
+  max-height: 285px;
+  overflow: auto;
+  margin-right: -10px !important;
+  padding-right: 10px !important;
+}
+/* width */
+.yt-filter-inner-wrap .yt-ul-list-none::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.yt-filter-inner-wrap .yt-ul-list-none::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 2px;
+}
+
+/* Handle */
+.yt-filter-inner-wrap .yt-ul-list-none::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.yt-filter-inner-wrap .yt-ul-list-none::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+
+@media (max-width: 1279.92px) and (min-width: 768px) {
+  /* .yt-filter-inner-wrap.yt-price-filter-wrap {
+    width: 33.3333333333%;
+    float: left;
+  } */
+  .yt-filter-inner-wrap.yt-discount-wrapper .yt-ul-list-none li {
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .yt-tb-filter-apply .yt-filte-btn-tb {
+    width: 150px;
+    font-size: 14px;
+    line-height: 1.14;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 6px;
+    border: none;
+  }
+  .yt-tb-filter-apply .yt-filter-apply {
+    background-color: #d4c96d;
+  }
+  .yt-tb-filter-apply .yt-filter-cancel {
+    background-color: #8b8f95;
+    margin: 0 15px 0 0;
+  }
+  .yt-main-filter-box .yt-filter-inner-wrap {
+    padding-bottom: 0 !important;
+  }
+  .yt-main-filter-box .yt-filter-inner-wrap:last-child {
+    padding: 1.5rem !important;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+
+@media (max-width: 1279.92px) {
+  .yt-filter-title {
+    display: none;
+  }
+  .yt-filter-inner-wrap .yt-ul-list-none {
+    list-style: none;
+    margin: 0 -15px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .yt-filter-inner-wrap .yt-ul-list-none li {
+    width: 33.3333333333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding: 0 15px;
+  }
+  .yt-main-filter-box {
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+    border: solid 1px var(--color-dark-black);
+  }
+  .yt-filter-divider {
+    display: none;
+  }
+  .yt-product-filter-wrap .yt-main-filter-box:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  .yt-mb-filter-apply {
+    position: absolute;
+    bottom: 0;
+    right: 24px;
+    padding: 8px 20px;
+  }
+  .yt-mb-filter-apply .yt-filte-btn-mb {
+    width: 150px;
+    font-size: 14px;
+    line-height: 1.14;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 6px;
+    border: none;
+  }
+  .yt-mb-filter-apply .yt-filter-apply {
+    background-color: #d4c96d;
+  }
+  .yt-mb-filter-apply .yt-filter-reset {
+    background-color: #8b8f95;
+    margin: 0 15px 0 0;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .yt-mbtab-filter-wrap .tab-content {
+    width: 100%;
+  }
+  .yt-mbtab-filter-wrap .nav-tabs {
+    width: 120px;
+    min-width: 120px;
+    border: none;
+    display: block;
+  }
+  .yt-mbtab-filter-wrap .nav-tabs li {
+    width: 100%;
+    border: none !important;
+  }
+  .yt-mbtab-filter-wrap .nav-tabs li a {
+    border: none !important;
+  }
+  .yt-product-filter-wrap .yt-mbtab-filter-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    border: solid 0.5px #dbdbdb;
+    padding: 15px 0;
+  }
+  .yt-product-filter-wrap .yt-tab-filte-content-mb {
+    position: absolute;
+    right: 0;
+    left: 120px;
+    padding: 25px 30px 25px 20px;
+  }
+  .yt-mbtab-filter-wrap .nav-tabs li a.active {
+    margin-right: -0.5px;
+  }
+  .yt-mbtab-filter-wrap .yt-mbtab-filter-ttl {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #3e454f;
+  }
+  .yt-mb-filter-apply {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px 20px;
+    background: #fff;
+    box-shadow: 0 1px 20px 0 rgba(152, 165, 183, 0.5);
+  }
+  .yt-mb-filter-apply .yt-filte-btn-mb {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.14;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 6px;
+    border: none;
+  }
+  .yt-mb-filter-apply .yt-filter-apply {
+    background-color: #d4c96d;
+  }
+  .yt-mb-filter-apply .yt-filter-cancel {
+    background-color: #8b8f95;
+    margin: 0 15px 0 0;
+  }
+  .yt-cat-name,
+  .yt-color-name,
+  .yt-size-name {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .yt-cmyt-mb-filter-search-bar {
+    position: relative;
+    margin-bottom: 22px;
+  }
+  .yt-cmyt-mb-filter-search-bar .yt-mb-filter-search-icn {
+    position: absolute;
+    max-width: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .yt-cmyt-mb-filter-search-bar .yt-mb-filter-search-filed {
+    border: none !important;
+    width: 100%;
+    padding: 15px 15px 15px 35px;
+    border-bottom: solid 1px #dbdbdb !important;
+    outline: none !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .yt-box-title {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .yt-product-filter-wrap .yt-filter-inner-wrap {
+    padding: 30px !important;
+  }
+}

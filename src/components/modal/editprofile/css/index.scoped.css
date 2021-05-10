@@ -1,0 +1,204 @@
+/*
+* Add Address Modal CSs
+*/
+.edit-profile-title-bar span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 !important;
+  top: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: var(--color-black);
+}
+.edit-profile-title-bar {
+  position: relative;
+}
+.edit-profile-body-wrap .form-control {
+  height: auto;
+  border: none;
+  border-bottom: 2px solid #f6f8fa;
+  box-shadow: none;
+  padding-left: 0;
+}
+.edit-profile-btn {
+  opacity: 0.99;
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+}
+/* Chrome, Safari, Edge, Opera */
+.edit-profile-body-wrap input::-webkit-outer-spin-button,
+.edit-profile-body-wrap input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.edit-profile-body-wrap .form-control input[type="number"] {
+  -moz-appearance: textfield;
+}
+.edit-profile-body-wrap .profile-form-tag {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+}
+
+.profile-form-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+.profile-form-field .form-control {
+  border: none;
+  border-bottom: 2px solid #f6f8fa;
+  padding-left: 0;
+  box-shadow: none;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: left;
+  color: var(--color-black);
+  height: auto;
+}
+.profile-form-field .profile-form-tag {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-dark-grey);
+}
+.profile-form-field.fields-active .profile-form-tag {
+  top: 0;
+  transform: none;
+}
+.img-upload svg {
+  font-size: 34px;
+  color: var(--color-black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.yt-remove-pic-wrap {
+  cursor: pointer;
+  color: #f67054;
+}
+.img-upload {
+  width: 109px;
+  height: 109px;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  position: relative;
+}
+
+.image-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  display: inline-block;
+  opacity: 0.05;
+  border-radius: 6px;
+}
+
+.image-overlay:hover {
+  opacity: 0.6;
+}
+
+.profile-edit-profile-btn {
+  border-radius: 6px;
+  background-color: var(--color-dark-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.11;
+  color: #ffffff;
+}
+.yt-edit-prfl-body {
+  padding: 40px 40px 30px;
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .yt-remove-pic-wrap {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .yt-remove-pic-wrap img {
+    max-width: 16px;
+  }
+  .profile-form-field .form-control {
+    padding: 10px 0 !important;
+  }
+  .profile-edit-profile-btn {
+    font-size: 16px;
+    line-height: 1.13;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+  }
+  .yt-edit-prfl-body {
+    padding: 40px 40px 20px;
+  }
+}
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.92px) {
+  .yt-remove-pic-wrap {
+    display: none;
+  }
+  .edit-profile-body-wrap .img-upload {
+    margin: 0 auto;
+    width: 122px;
+    height: 122px;
+  }
+  .profile-form-field .profile-form-tag {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .profile-form-field .form-control {
+    font-size: 17px;
+    line-height: 1.12;
+    padding-top: 11px !important;
+    padding-bottom: 6px !important;
+  }
+  .yt-edit-prfl-body {
+    padding: 20px 15px;
+  }
+  .profile-edit-profile-btn {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: 0.4px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .profile-edit-pass,
+  .profile-edit-btn {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1900px) {
+  .profile-form-field .form-control {
+    padding-top: 16px !important;
+    padding-bottom: 6px !important;
+  }
+  .profile-form-field {
+    margin-bottom: 30px;
+  }
+  .yt-edit-profl-img-wrap {
+    margin-bottom: 30px !important;
+  }
+  .edit-profile-body-wrap .row.form-group {
+    margin-bottom: 0;
+  }
+}

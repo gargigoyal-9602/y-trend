@@ -1,0 +1,128 @@
+.radius-10 {
+  border-radius: 10px;
+}
+.list-style-none {
+  list-style: none;
+}
+.border-top-grey {
+  border-top: 2px solid #dbdbdb;
+}
+.sp-current {
+  color: var(--color-black);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.sp-image-vert-slider {
+  position: relative;
+  max-height: 550px;
+}
+
+.yt-product-img-inner-row .sp-inner-content-wrap.sp-spp-inner-image-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid silver;
+  border-radius: 10px;
+  min-height: 450px;
+}
+.yt-slider-down,
+.yt-slider-up {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.yt-slider-up {
+  top: 0;
+}
+.yt-slider-down {
+  bottom: 0;
+}
+
+.rec {
+  background: red;
+}
+div {
+  box-shadow: none;
+  outline: none !important;
+}
+.sp-inner-wrap {
+  padding: 40px 30px 30px;
+}
+.yt-product-img-inner-row
+  .sp-inner-content-wrap.sp-spp-inner-image-wrap
+  .sp-spimg-item {
+  min-height: 450px;
+  object-fit: cover;
+  object-position: center;
+  padding: 20px;
+}
+@media (min-width: 1900px) {
+  .sp-inner-wrap {
+    padding: 40px 40px 30px;
+  }
+}
+@media (min-width: 1280px) {
+  .sp-image-vert-slider {
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .vert-slider-item img {
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+  }
+  .vert-slider-item {
+    border-radius: 9px;
+    border: solid 1px #dbdbdb;
+    background-color: #ffffff;
+    height: 133px;
+    width: 133px;
+  }
+}
+/*
+* Screen for under 1280 Resolution 
+*/
+@media (max-width: 1279.92px) {
+  .yt-inner-col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .yt-slider-down,
+  .yt-slider-up {
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    z-index: 50;
+  }
+  .yt-slider-up {
+    left: -10px;
+  }
+  .yt-slider-down {
+    right: -10px;
+    left: auto;
+  }
+}
+
+/*
+* Screen for under 768 Resolution 
+*/
+@media (max-width: 767.88px) {
+  .vert-slider-item {
+    height: 70px;
+    width: 70px;
+    border-radius: 9px;
+    border: solid 1px #dbdbdb;
+    background-color: #ffffff;
+  }
+  .vert-slider-item img {
+    height: 57px;
+    width: 57px;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,182 @@
+.topbar {
+
+    height:20px;
+    color: var(--color-black);
+    background-color: #f6f8fa;
+    font-size: 14px;
+    margin:6px 0px;
+    /*padding-left: 50px;*/
+
+}
+
+.logocontainer {
+    background-color: white;
+}
+
+.logobox {
+    background-color:var(--color-dark-black);
+}
+
+.logoimage {
+    height:95px;
+    width: 190px;
+}
+
+.supportbox {
+    height:95px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supportimage {
+    height:auto;
+    width: 26px;
+    margin-right: 10px;
+}
+
+.supportnumber {
+    display: flex;
+    flex-direction: column;
+}
+.supportnumber .title{
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--color-dark-grey);
+    padding-bottom: 5px;
+    margin-top: -5px;
+}
+.supportnumber .number{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.searchcontainer{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+.searchinput{  
+    border-radius: 6px;
+    border: solid 1px #cae2fe;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 48px;
+}
+.searchicon{
+    height: auto;
+    width: 14px;
+    position: absolute;
+    left: 18px;
+}
+
+
+.cartcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.carticon{
+    height: auto;
+    width: 26px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.loginbutton{
+    width: 140px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: var(--color-dark-black);
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+
+.menucontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 2px;
+    background-color: white;
+}
+
+.menuicon {
+    height: auto;
+    width: 16px;
+    position: absolute;
+    right: 32px;
+    background-color: white;
+}
+
+nav.navbar{
+    padding:0px;
+}
+
+ul.navbar-nav{
+    width:100%;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.nav-link{
+    color:var(--color-black) !important;
+}
+
+.nav-link.active {
+    color:var(--color-blue) !important;
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-position: under;
+}
+
+@media only screen and (max-width: 992px) {
+    .order-sm-1{
+        order:1;
+    }
+    .searchicon{
+        left:32px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .order-sm-1{
+        order:0;
+    }
+    .searchicon{
+        left:18px;
+    }
+    ul.navbar-nav{
+        padding:6px 226px;
+    }
+}
+
+.usericon{
+    width: 42px;
+    height: 40px;
+}
+
+.uname{
+    margin-left: 5px;
+    color: gray;
+}
+
+.userbox{
+    cursor: pointer;
+}
+
